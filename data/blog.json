@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": "post-001",
+      "slug": "kurumsal-promosyon-urunu-secimi",
+      "title_tr": "Kurumsal Promosyon Ürünü Seçerken Dikkat Edilmesi Gerekenler",
+      "title_en": "What to Consider When Choosing Corporate Promotional Products",
+      "date": "2026-06-10",
+      "category": "Rehber",
+      "excerpt_tr": "Doğru promosyon ürünü, markanızı uzun süre akılda tutar. Hedef kitle, kullanım sıklığı ve baskı kalitesi gibi kriterleri ele alıyoruz.",
+      "excerpt_en": "The right promotional product keeps your brand top of mind. We cover criteria such as audience, frequency of use and print quality.",
+      "content_tr": "Kurumsal promosyon ürünleri, markanızın müşteriyle temas ettiği fiziksel temas noktalarıdır. Doğru ürünü seçerken hedef kitlenizi, ürünün kullanım sıklığını ve baskı alanını göz önünde bulundurun. Günlük kullanılan ürünler markanızı daha sık hatırlatır.\n\nBu bir örnek (placeholder) içeriktir; yayın öncesi gerçek metinle değiştirilecektir.",
+      "content_en": "Corporate promotional products are the physical touchpoints where your brand meets the customer. When choosing the right product, consider your target audience, how often the item is used, and the available print area. Items used daily remind customers of your brand more frequently.\n\nThis is placeholder content; it will be replaced with real copy before launch.",
+      "featuredImage": "og-image.jpg",
+      "active": true,
+      "featured": true,
+      "seoTitle_tr": "Kurumsal Promosyon Ürünü Seçimi | Promoking Blog",
+      "seoTitle_en": "Choosing Corporate Promotional Products | Promoking Blog",
+      "seoDescription_tr": "Kurumsal promosyon ürünü seçerken hedef kitle, kullanım ve baskı kriterleri. Promoking rehberi.",
+      "seoDescription_en": "Audience, usage and printing criteria for choosing corporate promotional products. A Promoking guide."
+    },
+    {
+      "id": "post-002",
+      "slug": "lojistik-sektorune-ozel-promosyon",
+      "title_tr": "Lojistik Sektörüne Özel Promosyon Çözümleri",
+      "title_en": "Promotional Solutions for the Logistics Sector",
+      "date": "2026-06-14",
+      "category": "Sektör",
+      "excerpt_tr": "Konteyner anahtarlıklar, dayanıklı PVC ürünler ve fuar setleri — lojistik markaları için öne çıkan promosyon kategorileri.",
+      "excerpt_en": "Container keychains, durable PVC items and trade-show sets — standout promotional categories for logistics brands.",
+      "content_tr": "Lojistik sektöründe promosyon ürünleri hem dayanıklı hem de sektörle ilişkili olmalıdır. Konteyner formlu anahtarlıklar ve PVC ürünler markanızı sahada görünür kılar.\n\nBu bir örnek (placeholder) içeriktir.",
+      "content_en": "In logistics, promotional products should be both durable and relevant to the sector. Container-shaped keychains and PVC items keep your brand visible in the field.\n\nThis is placeholder content.",
+      "featuredImage": "og-image.jpg",
+      "active": true,
+      "featured": false,
+      "seoTitle_tr": "Lojistik Sektörü Promosyon Çözümleri | Promoking Blog",
+      "seoTitle_en": "Logistics Sector Promotional Solutions | Promoking Blog",
+      "seoDescription_tr": "Lojistik markaları için dayanıklı promosyon ürünleri ve fuar setleri. Promoking.",
+      "seoDescription_en": "Durable promotional products and trade-show sets for logistics brands. Promoking."
+    },
+    {
+      "id": "post-003",
+      "slug": "logo-baski-teknikleri",
+      "title_tr": "Promosyon Ürünlerinde Logo Baskı Teknikleri",
+      "title_en": "Logo Printing Techniques on Promotional Products",
+      "date": "2026-06-17",
+      "category": "Üretim",
+      "excerpt_tr": "Serigrafi, tampon baskı, lazer ve dijital baskı arasındaki farklar ve hangi ürün için hangisinin uygun olduğu.",
+      "excerpt_en": "Differences between screen, pad, laser and digital printing — and which suits which product.",
+      "content_tr": "Logo baskı tekniği, ürünün malzemesine ve yüzey formuna göre seçilir. Doğru teknik, baskının dayanıklılığını ve görünümünü belirler.\n\nBu bir örnek (placeholder) içeriktir.",
+      "content_en": "The logo printing technique is chosen based on the product's material and surface form. The right technique determines the durability and appearance of the print.\n\nThis is placeholder content.",
+      "featuredImage": "og-image.jpg",
+      "active": true,
+      "featured": false,
+      "seoTitle_tr": "Logo Baskı Teknikleri | Promoking Blog",
+      "seoTitle_en": "Logo Printing Techniques | Promoking Blog",
+      "seoDescription_tr": "Serigrafi, tampon, lazer ve dijital baskı teknikleri ve kullanım alanları. Promoking.",
+      "seoDescription_en": "Screen, pad, laser and digital printing techniques and their uses. Promoking."
+    }
+  ]
+}

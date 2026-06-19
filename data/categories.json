@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "slug": "kalemler",
+      "name_tr": "Kalemler",
+      "name_en": "Pens",
+      "page": "kalemler.html",
+      "count": 36,
+      "active": true,
+      "featured": false,
+      "sortOrder": 10
+    },
+    {
+      "slug": "ajanda-defterler",
+      "name_tr": "Ajanda & Defterler",
+      "name_en": "Notebooks & Planners",
+      "page": "ajanda-defterler.html",
+      "count": 100,
+      "active": true,
+      "featured": false,
+      "sortOrder": 20
+    },
+    {
+      "slug": "termos-matara",
+      "name_tr": "Termos & Matara",
+      "name_en": "Thermos & Bottles",
+      "page": "termos-matara.html",
+      "count": 47,
+      "active": true,
+      "featured": false,
+      "sortOrder": 30
+    },
+    {
+      "slug": "teknolojik-urunler",
+      "name_tr": "Teknolojik Ürünler",
+      "name_en": "Tech Products",
+      "page": "teknolojik-urunler.html",
+      "count": 102,
+      "active": true,
+      "featured": false,
+      "sortOrder": 40
+    },
+    {
+      "slug": "otel-bar",
+      "name_tr": "Otel & Bar",
+      "name_en": "Hotel & Bar",
+      "page": "otel-bar.html",
+      "count": 32,
+      "active": true,
+      "featured": false,
+      "sortOrder": 50
+    },
+    {
+      "slug": "kurumsal-hediye-setleri",
+      "name_tr": "Kurumsal Hediye Setleri",
+      "name_en": "Corporate Gift Sets",
+      "page": "kurumsal-hediye-setleri.html",
+      "count": 54,
+      "active": true,
+      "featured": false,
+      "sortOrder": 60
+    },
+    {
+      "slug": "pvc-urunler",
+      "name_tr": "PVC Ürünler",
+      "name_en": "PVC Products",
+      "page": "pvc-urunler.html",
+      "count": 4,
+      "active": true,
+      "featured": false,
+      "sortOrder": 70
+    },
+    {
+      "slug": "kaucuk-urunler",
+      "name_tr": "Kauçuk Ürünler",
+      "name_en": "Rubber Products",
+      "page": "kaucuk-urunler.html",
+      "count": 6,
+      "active": true,
+      "featured": false,
+      "sortOrder": 80
+    },
+    {
+      "slug": "plastik-urunler",
+      "name_tr": "Plastik Ürünler",
+      "name_en": "Plastic Products",
+      "page": "plastik-urunler.html",
+      "count": 6,
+      "active": true,
+      "featured": false,
+      "sortOrder": 90
+    },
+    {
+      "slug": "tekstil-urunleri",
+      "name_tr": "Tekstil Ürünleri",
+      "name_en": "Textile Products",
+      "page": "tekstil-urunleri.html",
+      "count": 0,
+      "active": true,
+      "featured": false,
+      "sortOrder": 100
+    }
+  ]
+}

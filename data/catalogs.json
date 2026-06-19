@@ -1,0 +1,15 @@
+{
+  "catalogs": [
+    {
+      "id": "cat-2026",
+      "title_tr": "Promoking 2026 Genel Katalog",
+      "title_en": "Promoking 2026 General Catalog",
+      "description_tr": "Tüm ürün kategorilerini içeren dijital katalog. Yakında yayında.",
+      "description_en": "Digital catalog covering all product categories. Coming soon.",
+      "flipbookUrl": "",
+      "pdfUrl": "",
+      "active": false,
+      "sortOrder": 10
+    }
+  ]
+}
