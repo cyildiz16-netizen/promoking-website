@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalemler — Promoking</title>
+<meta name="description" content="Promosyon kalemler: metal ve plastik tükenmez, fosforlu, kişiselleştirilebilir kurumsal kalem modelleri. İnceleyin ve teklif alın.">
+<link rel="canonical" href="https://promoking.com.tr/kalemler.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#C4176F">
+<meta name="author" content="Promoking">
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Promoking">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="Kalemler — Promoking">
+<meta property="og:description" content="Promosyon kalemler: metal ve plastik tükenmez, fosforlu, kişiselleştirilebilir kurumsal kalem modelleri. İnceleyin ve teklif alın.">
+<meta property="og:url" content="https://promoking.com.tr/kalemler.html">
+<meta property="og:image" content="https://promoking.com.tr/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalemler — Promoking">
+<meta name="twitter:description" content="Promosyon kalemler: metal ve plastik tükenmez, fosforlu, kişiselleştirilebilir kurumsal kalem modelleri. İnceleyin ve teklif alın.">
+<meta name="twitter:image" content="https://promoking.com.tr/og-image.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --dk:#111111;--mg:#C4176F;--mgl:#E85AA1;
+  --cr:#F6F5F3;--wh:#FFFFFF;--bd:#E2E2E2;
+  --tx:#141414;--txm:#777;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--cr);color:var(--tx)}
+
+/* NAV */
+nav{
+  position:sticky;top:0;z-index:100;
+  background:var(--wh);height:64px;padding:0 48px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--bd);
+}
+.logo-w{display:inline-block;position:relative;padding:8px 14px 8px 6px}
+.logo-w::before{content:'';position:absolute;top:0;left:0;width:12px;height:12px;border-top:2px solid var(--mgl);border-left:2px solid var(--mgl)}
+.logo-w::after{content:'';position:absolute;bottom:0;right:0;width:12px;height:12px;border-bottom:2px solid var(--mg);border-right:2px solid var(--mg)}
+.logo-t{font-family:'Sora',sans-serif;font-size:17px;font-weight:800;color:var(--tx);letter-spacing:4px}
+.logo-s{font-size:9px;color:var(--mg);letter-spacing:1.5px;margin-top:2px;font-weight:500}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links li{font-size:13px;color:#888;cursor:pointer;transition:color .2s}
+.nav-links li:hover,.nav-links li.active{color:var(--tx)}
+.nav-links li.active{font-weight:500;color:var(--mg)}
+.nav-cta{
+  background:var(--mg);color:#fff;border:none;
+  padding:9px 20px;font-family:'Sora',sans-serif;
+  font-size:12px;font-weight:700;cursor:pointer;
+}
+
+/* PAGE HEADER */
+.page-header{
+  background:var(--dk);padding:56px 48px 52px;
+  position:relative;overflow:hidden;
+}
+.page-header::after{
+  content:'[ ]';position:absolute;right:40px;top:50%;transform:translateY(-50%);
+  font-family:'Sora',sans-serif;font-size:160px;font-weight:800;
+  color:rgba(255,255,255,0.025);pointer-events:none;letter-spacing:-20px;
+}
+.ph-eyebrow{
+  font-size:10px;font-weight:700;letter-spacing:3px;
+  text-transform:uppercase;color:var(--mgl);margin-bottom:14px;
+  display:flex;align-items:center;gap:8px;
+}
+.ph-eyebrow::before{content:'';width:16px;height:1.5px;background:var(--mgl);display:block}
+.page-header h1{
+  font-family:'Sora',sans-serif;font-size:42px;font-weight:800;
+  color:#fff;letter-spacing:-1.5px;line-height:1.05;margin-bottom:12px;
+}
+.page-header p{font-size:15px;color:rgba(255,255,255,0.42);line-height:1.7}
+.ph-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(196,23,111,0.18);
+  border:1px solid rgba(196,23,111,0.3);
+  color:var(--mgl);font-size:11px;font-weight:700;
+  letter-spacing:.5px;padding:5px 12px;margin-top:20px;
+}
+
+/* FILTER BAR */
+.filter-wrap{
+  background:var(--wh);
+  border-bottom:1px solid var(--bd);
+  position:sticky;top:64px;z-index:90;
+}
+.filter-inner{
+  padding:0 48px;
+  display:flex;align-items:stretch;gap:0;
+  overflow-x:auto;scrollbar-width:none;
+}
+.filter-inner::-webkit-scrollbar{display:none}
+.filter-btn{
+  background:none;border:none;
+  padding:16px 24px;
+  font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:#aaa;
+  cursor:pointer;white-space:nowrap;
+  border-bottom:2px solid transparent;
+  display:flex;align-items:center;gap:7px;
+  transition:color .15s,border-color .15s;
+  flex-shrink:0;
+}
+.filter-btn:hover{color:var(--tx)}
+.filter-btn.active{color:var(--mg);border-bottom-color:var(--mg)}
+.filter-count{
+  background:#F0EFF0;color:#aaa;
+  font-size:10px;font-weight:700;
+  padding:2px 7px;border-radius:20px;
+  transition:background .15s,color .15s;
+}
+.filter-btn.active .filter-count{background:rgba(196,23,111,0.12);color:var(--mg)}
+.filter-divider{
+  width:1px;background:var(--bd);
+  margin:12px 0;flex-shrink:0;
+}
+
+/* PRODUCT GRID */
+.grid-section{padding:48px}
+.prod-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:2px;background:var(--bd);border:1px solid var(--bd);
+}
+.prod-card{
+  background:var(--wh);cursor:pointer;
+  position:relative;overflow:hidden;
+  transition:box-shadow .25s,transform .25s;
+  display:flex;flex-direction:column;
+}
+.prod-card:hover{
+  box-shadow:0 8px 32px rgba(0,0,0,0.1);
+  z-index:2;transform:translateY(-2px);
+}
+.prod-card:hover .pbar{transform:scaleX(1)}
+.prod-card:hover .prod-img-ph{background:#EDE8ED}
+.pbar{
+  position:absolute;bottom:0;left:0;right:0;height:2px;
+  background:var(--mg);transform:scaleX(0);transform-origin:left;
+  transition:transform .3s;
+}
+
+/* Placeholder image */
+.prod-img-ph{
+  height:188px;background:#F2F1F2;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  gap:10px;transition:background .25s;
+  position:relative;
+}
+.prod-img-ph-br{
+  position:absolute;top:10px;left:10px;
+  width:14px;height:14px;
+  border-top:1.5px solid rgba(196,23,111,0.18);
+  border-left:1.5px solid rgba(196,23,111,0.18);
+}
+.prod-img-ph svg{width:36px;height:36px;opacity:.25}
+.prod-img-ph span{
+  font-size:10px;font-weight:600;letter-spacing:1.5px;
+  text-transform:uppercase;color:#ccc;
+}
+.prod-img-label{
+  position:absolute;bottom:10px;right:10px;
+  font-size:8px;font-weight:700;letter-spacing:1px;
+  color:#ccc;text-transform:uppercase;
+}
+.prod-img{height:188px;background:#fff;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.prod-img img{width:100%;height:100%;object-fit:contain;display:block}
+.prod-card:hover .prod-img{background:#faf8fa}
+.prod-img .prod-img-label{position:absolute;bottom:10px;right:10px;font-size:8px;font-weight:700;letter-spacing:1px;color:#bbb;text-transform:uppercase}
+
+/* Card content */
+.prod-body{padding:20px 20px 24px;display:flex;flex-direction:column;flex:1}
+.cat-badge{
+  display:inline-block;
+  font-size:9px;font-weight:700;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--mg);
+  background:rgba(196,23,111,0.07);
+  padding:3px 8px;margin-bottom:10px;
+  border-left:2px solid var(--mg);
+}
+.prod-name{
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:700;
+  color:var(--tx);margin-bottom:7px;line-height:1.3;
+}
+.prod-desc{
+  font-size:12px;color:var(--txm);line-height:1.65;
+  flex:1;
+}
+.prod-footer{
+  margin-top:18px;padding-top:14px;
+  border-top:1px solid #F0EFF0;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.prod-price-note{font-size:10px;color:#bbb;line-height:1.4}
+.prod-cta{
+  background:var(--mg);color:#fff;border:none;
+  padding:7px 14px;
+  font-family:'Sora',sans-serif;font-size:11px;font-weight:700;
+  cursor:pointer;white-space:nowrap;
+  transition:background .2s;
+}
+.prod-cta:hover{background:#8A1050}
+
+/* Empty state */
+.empty-state{
+  grid-column:1/-1;padding:80px 20px;
+  text-align:center;color:#bbb;
+}
+
+/* Count bar */
+.count-bar{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:20px;
+}
+.showing-count{font-size:12px;color:var(--txm)}
+.showing-count strong{color:var(--tx);font-weight:700}
+
+/* CUSTOM CTA */
+.custom-cta{
+  background:var(--dk);padding:72px 48px;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:64px;align-items:center;
+}
+.cc-tag{
+  font-size:10px;font-weight:700;letter-spacing:3px;
+  text-transform:uppercase;color:var(--mgl);
+  margin-bottom:14px;display:flex;align-items:center;gap:8px;
+}
+.cc-tag::before{content:'';width:14px;height:1.5px;background:var(--mgl);display:block}
+.custom-cta h2{
+  font-family:'Sora',sans-serif;font-size:32px;font-weight:800;
+  color:#fff;letter-spacing:-1px;line-height:1.1;margin-bottom:14px;
+}
+.custom-cta p{font-size:14px;color:rgba(255,255,255,0.4);line-height:1.75}
+.cc-steps{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(255,255,255,0.05)}
+.cc-step{
+  background:rgba(255,255,255,0.03);padding:26px 24px;
+  border:1px solid rgba(255,255,255,0.05);
+}
+.cc-step-num{
+  font-size:10px;font-weight:700;letter-spacing:2px;
+  color:var(--mgl);margin-bottom:10px;
+}
+.cc-step-title{
+  font-family:'Sora',sans-serif;font-size:14px;font-weight:700;
+  color:#fff;margin-bottom:6px;
+}
+.cc-step-desc{font-size:12px;color:rgba(255,255,255,0.33);line-height:1.6}
+.cc-cta-row{
+  margin-top:32px;display:flex;gap:12px;flex-wrap:wrap;
+}
+.btn-mg{
+  background:var(--mg);color:#fff;border:none;
+  padding:13px 24px;font-family:'Sora',sans-serif;
+  font-size:13px;font-weight:700;cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.btn-out-w{
+  background:transparent;color:rgba(255,255,255,.65);
+  border:1px solid rgba(255,255,255,.15);
+  padding:13px 20px;font-family:'Sora',sans-serif;
+  font-size:13px;cursor:pointer;
+}
+
+/* FOOTER */
+footer{background:#0A0A0A;padding:48px 48px 0}
+.footer-grid{
+  display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;
+  padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,0.05);
+}
+.fl-w{display:inline-block;position:relative;padding:7px 12px 7px 5px;margin-bottom:14px}
+.fl-w::before{content:'';position:absolute;top:0;left:0;width:10px;height:10px;border-top:1.5px solid var(--mgl);border-left:1.5px solid var(--mgl)}
+.fl-w::after{content:'';position:absolute;bottom:0;right:0;width:10px;height:10px;border-bottom:1.5px solid var(--mg);border-right:1.5px solid var(--mg)}
+.fl-main{font-family:'Sora',sans-serif;font-size:14px;font-weight:800;color:#fff;letter-spacing:4px}
+.fl-sub{font-size:8.5px;color:var(--mg);letter-spacing:1.5px;margin-top:2px}
+footer p{font-size:12px;color:rgba(255,255,255,0.28);line-height:1.75;margin-bottom:16px}
+.f-con{font-size:12px;color:rgba(255,255,255,0.32);line-height:1.9}
+.f-col h5{font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.18);margin-bottom:14px}
+.f-col ul{list-style:none}
+.f-col li{font-size:12px;color:rgba(255,255,255,0.36);padding:3px 0;cursor:pointer}
+.f-col li:hover{color:rgba(255,255,255,.75)}
+.f-bot{padding:18px 0;display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,0.18);align-items:center}
+.f-soc{display:flex;gap:6px}
+.f-soc a{width:30px;height:30px;border:1px solid rgba(255,255,255,0.07);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.28);text-decoration:none;font-size:12px;transition:border-color .2s,color .2s}
+.f-soc a:hover{border-color:var(--mg);color:var(--mg)}
+
+/* RESPONSIVE */
+@media(max-width:1100px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:900px){
+  nav,.grid-section,.custom-cta,footer{padding-left:24px;padding-right:24px}
+  .page-header{padding:40px 24px}
+  .filter-inner{padding:0 24px}
+  .prod-grid{grid-template-columns:repeat(2,1fr)}
+  .custom-cta{grid-template-columns:1fr;gap:36px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .nav-links{display:none}
+  .prod-grid{grid-template-columns:1fr}
+  .cc-steps{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .page-header h1{font-size:32px}
+}
+.nav-logo{height:40px;width:auto}
+.f-logo{height:44px;width:auto;margin-bottom:18px;display:block}
+.nav-right{display:flex;align-items:center;gap:14px}
+.lang-tog{display:flex;align-items:center;gap:5px;font-family:'Sora',sans-serif;font-size:12px;font-weight:700}
+.lang-tog span{cursor:pointer;color:#b5b5b5;transition:color .15s}
+.lang-tog span:hover{color:#444}
+.lang-tog span.on{color:var(--mg)}
+.lang-tog .sep{color:#ddd;cursor:default}
+
+/* HAMBURGER / MOBILE MENU */
+.nav-burger{display:none;flex-direction:column;justify-content:center;gap:5px;width:34px;height:34px;cursor:pointer;margin-left:12px;background:none;border:none;padding:6px;flex-shrink:0}
+.nav-burger span{display:block;height:2px;width:22px;background:var(--tx);border-radius:2px;transition:transform .25s ease,opacity .2s ease}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-burger.open span:nth-child(2){opacity:0}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{position:fixed;top:68px;left:0;right:0;background:var(--wh);border-bottom:1px solid var(--bd);box-shadow:0 14px 30px rgba(0,0,0,.10);transform:translateY(-14px);opacity:0;visibility:hidden;transition:transform .25s ease,opacity .25s ease,visibility .25s ease;z-index:99;padding:6px 24px 22px}
+.mobile-menu.open{transform:translateY(0);opacity:1;visibility:visible}
+.mobile-menu a{display:block;padding:14px 4px;font-size:15px;color:#2a2a2a;text-decoration:none;border-bottom:1px solid var(--bd);font-family:'Sora',sans-serif;font-weight:600;letter-spacing:.2px}
+.mobile-menu a.active{color:var(--mg)}
+.mobile-menu .mm-cta{margin-top:18px;background:var(--mg);color:#fff;text-align:center;padding:15px;border-bottom:none;font-weight:700}
+.mobile-menu .mm-cta:hover{background:var(--mgd)}
+body.menu-open{overflow:hidden}
+@media(max-width:600px){
+  .nav-burger{display:flex}
+  .nav-cta{display:none}
+  .nav-right{gap:0}
+}
+
+/* ===== Catalog redesign ===== */
+.cat-hero{padding:64px 24px 40px;text-align:center;max-width:900px;margin:0 auto}
+.cat-hero .eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--mg);font-weight:700;margin-bottom:14px}
+.cat-hero h1{font-family:'Sora',sans-serif;font-size:clamp(30px,5vw,48px);line-height:1.05;margin:0 0 16px;letter-spacing:-.5px}
+.cat-hero p{color:var(--txm);font-size:17px;line-height:1.6;margin:0 auto;max-width:640px}
+.hub-wrap{max-width:1200px;margin:0 auto;padding:24px 24px 80px}
+.hub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.hub-card{position:relative;border:1px solid #ececec;border-radius:16px;overflow:hidden;background:#fff;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s,border-color .25s}
+.hub-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,17,17,.10);border-color:#e3d3df}
+.hub-cover{aspect-ratio:16/11;background:#f6f4f6;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.hub-cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.hub-card:hover .hub-cover img{transform:scale(1.05)}
+.hub-cover.placeholder{background:linear-gradient(135deg,#C4176F,#E85AA1)}
+.hub-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:6px;flex:1}
+.hub-body h3{font-family:'Sora',sans-serif;font-size:19px;margin:0;letter-spacing:-.2px}
+.hub-body .desc{color:var(--txm);font-size:13.5px;line-height:1.5;flex:1}
+.hub-meta{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.hub-count{font-size:12px;color:#999;font-weight:600;letter-spacing:.3px}
+.hub-go{font-size:13px;font-weight:700;color:var(--mg);display:inline-flex;align-items:center;gap:6px}
+.hub-soon{font-size:11px;font-weight:700;color:#b9a;letter-spacing:1px;text-transform:uppercase}
+/* category page */
+.cat-banner{background:linear-gradient(135deg,#1a1014,#111);color:#fff;padding:60px 24px 52px}
+.cat-banner .inner{max-width:1200px;margin:0 auto}
+.cat-bc{font-size:12.5px;color:#c79;margin-bottom:18px}
+.cat-bc a{color:#e7a9c7;text-decoration:none}.cat-bc a:hover{color:#fff}
+.cat-banner h1{font-family:'Sora',sans-serif;font-size:clamp(28px,4.5vw,44px);margin:0 0 14px;letter-spacing:-.5px}
+.cat-banner p{color:#cfc3cb;font-size:16px;line-height:1.6;max-width:640px;margin:0}
+.cat-banner .bcount{margin-top:20px;font-size:13px;color:#e7a9c7;font-weight:600;letter-spacing:.5px}
+.cat-tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:24px}
+.cat-search{flex:1;min-width:220px;max-width:360px;padding:12px 16px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);border-radius:10px;color:#fff;font-size:14px;font-family:inherit}
+.cat-search::placeholder{color:#b59caa}
+.pc-grid{max-width:1200px;margin:0 auto;padding:40px 24px 80px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.pc{border:1px solid #eee;border-radius:14px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s}
+.pc:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(17,17,17,.09);border-color:#e3d3df}
+.pc-img{display:block;aspect-ratio:1;background:#fff;overflow:hidden}
+.pc-img img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.pc-body{padding:14px 15px 16px;display:flex;flex-direction:column;gap:4px;flex:1;border-top:1px solid #f4f4f4}
+.pc-name{font-size:13.5px;font-weight:600;line-height:1.35;color:var(--tx)}
+.pc-code{font-size:11px;font-weight:700;letter-spacing:.6px;color:#aaa;font-family:'Inter',monospace;margin-bottom:8px}
+.pc-actions{margin-top:auto;display:flex;gap:8px;align-items:center}
+.pc-quote{flex:1;text-align:center;background:var(--mg);color:#fff;text-decoration:none;font-size:12.5px;font-weight:700;padding:9px 10px;border-radius:8px;transition:background .2s}
+.pc-quote:hover{background:#a01259}
+.pc-wa{width:38px;height:38px;flex:none;display:flex;align-items:center;justify-content:center;border:1px solid #e6e6e6;border-radius:8px;color:#25D366;text-decoration:none;transition:background .2s,border-color .2s}
+.pc-wa:hover{background:#f3fff7;border-color:#25D366}
+.cat-empty{max-width:700px;margin:0 auto;padding:70px 24px 90px;text-align:center}
+.cat-empty h2{font-family:'Sora',sans-serif;font-size:24px;margin:0 0 12px}
+.cat-empty p{color:var(--txm);margin:0 0 24px}
+.wa-float{position:fixed;right:20px;bottom:20px;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.45);z-index:60;transition:transform .2s}
+.wa-float:hover{transform:scale(1.08)}
+@media(max-width:980px){.hub-grid{grid-template-columns:repeat(2,1fr)}.pc-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.hub-grid{grid-template-columns:1fr}.pc-grid{grid-template-columns:repeat(2,1fr);gap:14px}.cat-banner{padding:44px 18px 38px}}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <img src="data:image/png;base64,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" alt="Promoking" class="nav-logo">
+  <ul class="nav-links">
+      <li><a href="index.html" style="text-decoration:none;color:inherit" data-en="Home">Ana Sayfa</a></li>
+      <li class="active" data-en="Products">Ürünler</li>
+      <li><a href="uretim.html" style="text-decoration:none;color:inherit" data-en="Production">Üretim</a></li>
+      <li><a href="referanslar.html" style="text-decoration:none;color:inherit" data-en="References">Referanslar</a></li>
+      <li><a href="hakkimizda.html" style="text-decoration:none;color:inherit" data-en="About">Hakkımızda</a></li>
+      <li><a href="iletisim.html" style="text-decoration:none;color:inherit" data-en="Contact">İletişim</a></li>
+    </ul>
+  <div class="nav-right"><div class="lang-tog"><span id="langTr" onclick="setLang('tr')">TR</span><span class="sep">/</span><span id="langEn" onclick="setLang('en')">EN</span></div><a href="iletisim.html" class="nav-cta" style="text-decoration:none" data-en="Get a Quote ↗">Teklif Al ↗</a></div>
+
+  <button class="nav-burger" id="navBurger" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" data-en="Home">Ana Sayfa</a>
+  <a href="urunler.html" class="active" data-en="Products">Ürünler</a>
+  <a href="uretim.html" data-en="Production">Üretim</a>
+  <a href="referanslar.html" data-en="References">Referanslar</a>
+  <a href="hakkimizda.html" data-en="About">Hakkımızda</a>
+  <a href="iletisim.html" data-en="Contact">İletişim</a>
+  <a href="iletisim.html" class="mm-cta" data-en="Get a Quote ↗">Teklif Al ↗</a>
+</div>
+
+<section class="cat-banner"><div class="inner">
+  <div class="cat-bc"><a href="urunler.html" data-en="Products">Ürünler</a> &nbsp;/&nbsp; <span data-en="Pens">Kalemler</span></div>
+  <h1 data-en="Pens">Kalemler</h1>
+  <p data-en="Plastic, metal and custom ballpoint pens, printed with your brand.">Plastik, metal ve özel tükenmez kalemler; markanıza özel baskıyla üretilir.</p>
+  <div class="bcount" data-en="36 products"><strong>36</strong> ürün</div>
+  <div class="cat-tools"><input class="cat-search" type="text" placeholder="Ürün kodu veya adı ara..." oninput="filterProd(this.value)">
+    <a href="iletisim.html" class="nav-cta" style="text-decoration:none" data-en="Request a Quote ↗">Teklif Al ↗</a></div>
+</div></section>
+<main class="pc-grid" id="pcGrid">
+<!-- GEN:PRODUCTS:START -->
+  <div class="pc" data-s="fk-3600 fosforlu kalem fk-3600">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%20FK-3600%20Fosforlu%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20FK-3600%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/FK-3600.jpg" alt="FK-3600 Fosforlu Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="FK-3600 Fosforlu Kalem">FK-3600 Fosforlu Kalem</div><div class="pc-code">FK-3600</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=FK-3600&ad=FK-3600%20Fosforlu%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%20FK-3600%20Fosforlu%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20FK-3600%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-45-sr plastik kalem 0544-45">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-45-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-45%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-45.jpg" alt="0544-45-SR Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-45-SR Plastik Kalem">0544-45-SR Plastik Kalem</div><div class="pc-code">0544-45</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-45&ad=0544-45-SR%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-45-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-45%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-320-k plastik kalem 0544-320">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-320-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-320%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-320.jpg" alt="0544-320-K Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-320-K Plastik Kalem">0544-320-K Plastik Kalem</div><div class="pc-code">0544-320</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-320&ad=0544-320-K%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-320-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-320%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-10-trk plastik kalem 0544-10">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-10-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-10%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-10.jpg" alt="0544-10-TRK Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-10-TRK Plastik Kalem">0544-10-TRK Plastik Kalem</div><div class="pc-code">0544-10</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-10&ad=0544-10-TRK%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-10-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-10%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-15-k plastik kalem 0544-15">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-15-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-15%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-15.jpg" alt="0544-15-K Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-15-K Plastik Kalem">0544-15-K Plastik Kalem</div><div class="pc-code">0544-15</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-15&ad=0544-15-K%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-15-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-15%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-50-trk plastik kalem 0544-50">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-50-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-50.jpg" alt="0544-50-TRK Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-50-TRK Plastik Kalem">0544-50-TRK Plastik Kalem</div><div class="pc-code">0544-50</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-50&ad=0544-50-TRK%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-50-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-70-mr plastik kalem 0544-70">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-70-MR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-70%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-70.jpg" alt="0544-70-MR Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-70-MR Plastik Kalem">0544-70-MR Plastik Kalem</div><div class="pc-code">0544-70</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-70&ad=0544-70-MR%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-70-MR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-70%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-30-pm plastik kalem 0544-30">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-30-PM%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-30%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-30.jpg" alt="0544-30-PM Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-30-PM Plastik Kalem">0544-30-PM Plastik Kalem</div><div class="pc-code">0544-30</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-30&ad=0544-30-PM%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-30-PM%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-30%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-80-sr plastik kalem 0544-80">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-80-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-80%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-80.jpg" alt="0544-80-SR Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-80-SR Plastik Kalem">0544-80-SR Plastik Kalem</div><div class="pc-code">0544-80</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-80&ad=0544-80-SR%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-80-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-80%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="1506-sr plastik kalem 1506">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%201506-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%201506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/1506.jpg" alt="1506-SR Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="1506-SR Plastik Kalem">1506-SR Plastik Kalem</div><div class="pc-code">1506</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=1506&ad=1506-SR%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%201506-SR%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%201506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-85-t tükenmez kalem 0544-85">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-85-T%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-85%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-85.jpg" alt="0544-85-T Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-85-T Tükenmez Kalem">0544-85-T Tükenmez Kalem</div><div class="pc-code">0544-85</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-85&ad=0544-85-T%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-85-T%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-85%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-90-b plastik kalem 0544-90">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-90-B%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-90%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-90.jpg" alt="0544-90-B Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-90-B Plastik Kalem">0544-90-B Plastik Kalem</div><div class="pc-code">0544-90</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-90&ad=0544-90-B%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-90-B%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-90%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="2506-trk plastik kalem 2506">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%202506-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%202506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/2506.jpg" alt="2506-TRK Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="2506-TRK Plastik Kalem">2506-TRK Plastik Kalem</div><div class="pc-code">2506</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=2506&ad=2506-TRK%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%202506-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%202506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-55-fysl plastik kalem 0544-55">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-55-FYSL%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-55%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-55.jpg" alt="0544-55-FYSL Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-55-FYSL Plastik Kalem">0544-55-FYSL Plastik Kalem</div><div class="pc-code">0544-55</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-55&ad=0544-55-FYSL%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-55-FYSL%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-55%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-120-l plastik kalem 0544-120">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-120-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-120%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-120.jpg" alt="0544-120-L Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-120-L Plastik Kalem">0544-120-L Plastik Kalem</div><div class="pc-code">0544-120</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-120&ad=0544-120-L%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-120-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-120%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-310-b plastik kalem 0544-310">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-310-B%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-310%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-310.jpg" alt="0544-310-B Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-310-B Plastik Kalem">0544-310-B Plastik Kalem</div><div class="pc-code">0544-310</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-310&ad=0544-310-B%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-310-B%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-310%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-210-k plastik kalem 0544-210">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-210-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-210%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-210.jpg" alt="0544-210-K Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-210-K Plastik Kalem">0544-210-K Plastik Kalem</div><div class="pc-code">0544-210</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-210&ad=0544-210-K%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-210-K%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-210%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-100-trk plastik kalem 0544-100">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-100-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-100%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-100.jpg" alt="0544-100-TRK Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-100-TRK Plastik Kalem">0544-100-TRK Plastik Kalem</div><div class="pc-code">0544-100</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-100&ad=0544-100-TRK%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-100-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-100%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-110-ysl tükenmez kalem 0544-110">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-110-YSL%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-110%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-110.jpg" alt="0544-110-YSL Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-110-YSL Tükenmez Kalem">0544-110-YSL Tükenmez Kalem</div><div class="pc-code">0544-110</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-110&ad=0544-110-YSL%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-110-YSL%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-110%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0507-g plastik kalem 0507">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200507-G%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200507%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0507.jpg" alt="0507-G Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0507-G Plastik Kalem">0507-G Plastik Kalem</div><div class="pc-code">0507</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0507&ad=0507-G%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200507-G%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200507%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-60-b tükenmez kalem 0544-60">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-60-B%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-60%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-60.jpg" alt="0544-60-B Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-60-B Tükenmez Kalem">0544-60-B Tükenmez Kalem</div><div class="pc-code">0544-60</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-60&ad=0544-60-B%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-60-B%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-60%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-65-b tükenmez kalem 0544-65">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-65-B%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-65%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-65.jpg" alt="0544-65-B Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-65-B Tükenmez Kalem">0544-65-B Tükenmez Kalem</div><div class="pc-code">0544-65</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-65&ad=0544-65-B%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-65-B%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-65%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-150-l plastik kalem 0544-150">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-150-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-150%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-150.jpg" alt="0544-150-L Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-150-L Plastik Kalem">0544-150-L Plastik Kalem</div><div class="pc-code">0544-150</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-150&ad=0544-150-L%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-150-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-150%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0506-mv plastik kalem 0506">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200506-MV%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0506.jpg" alt="0506-MV Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0506-MV Plastik Kalem">0506-MV Plastik Kalem</div><div class="pc-code">0506</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0506&ad=0506-MV%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200506-MV%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200506%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-35-fsyl plastik kalem 0544-35">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-35-FSYL%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-35%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-35.jpg" alt="0544-35-FSYL Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-35-FSYL Plastik Kalem">0544-35-FSYL Plastik Kalem</div><div class="pc-code">0544-35</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-35&ad=0544-35-FSYL%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-35-FSYL%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-35%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-20-trk plastik kalem 0544-20">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-20-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-20%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-20.jpg" alt="0544-20-TRK Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-20-TRK Plastik Kalem">0544-20-TRK Plastik Kalem</div><div class="pc-code">0544-20</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-20&ad=0544-20-TRK%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-20-TRK%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-20%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-160-l plastik kalem 0544-160">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-160-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-160%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-160.jpg" alt="0544-160-L Plastik Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-160-L Plastik Kalem">0544-160-L Plastik Kalem</div><div class="pc-code">0544-160</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-160&ad=0544-160-L%20Plastik%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-160-L%20Plastik%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-160%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0532-270-s tükenmez kalem 0532-270">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200532-270-S%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-270%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0532-270.jpg" alt="0532-270-S Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0532-270-S Tükenmez Kalem">0532-270-S Tükenmez Kalem</div><div class="pc-code">0532-270</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0532-270&ad=0532-270-S%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200532-270-S%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-270%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0532-260-trk yarı metal kalem 0532-260">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200532-260-TRK%20Yar%C4%B1%20Metal%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-260%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0532-260.jpg" alt="0532-260-TRK Yarı Metal Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0532-260-TRK Yarı Metal Kalem">0532-260-TRK Yarı Metal Kalem</div><div class="pc-code">0532-260</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0532-260&ad=0532-260-TRK%20Yar%C4%B1%20Metal%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200532-260-TRK%20Yar%C4%B1%20Metal%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-260%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0544-95-g jell kalem 0544-95">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200544-95-G%20Jell%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-95%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0544-95.jpg" alt="0544-95-G Jell Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0544-95-G Jell Kalem">0544-95-G Jell Kalem</div><div class="pc-code">0544-95</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0544-95&ad=0544-95-G%20Jell%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200544-95-G%20Jell%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200544-95%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0532-100-s jell kalem 0532-100">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200532-100-S%20Jell%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-100%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0532-100.jpg" alt="0532-100-S Jell Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0532-100-S Jell Kalem">0532-100-S Jell Kalem</div><div class="pc-code">0532-100</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0532-100&ad=0532-100-S%20Jell%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200532-100-S%20Jell%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-100%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0532-50-ysl yarı metal kalem 0532-50">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200532-50-YSL%20Yar%C4%B1%20Metal%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0532-50.jpg" alt="0532-50-YSL Yarı Metal Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0532-50-YSL Yarı Metal Kalem">0532-50-YSL Yarı Metal Kalem</div><div class="pc-code">0532-50</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0532-50&ad=0532-50-YSL%20Yar%C4%B1%20Metal%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200532-50-YSL%20Yar%C4%B1%20Metal%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0532-800 işıklı kalem 0532-800">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200532-800%20I%C5%9F%C4%B1kl%C4%B1%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-800%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0532-800.jpg" alt="0532-800 Işıklı Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0532-800 Işıklı Kalem">0532-800 Işıklı Kalem</div><div class="pc-code">0532-800</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0532-800&ad=0532-800%20I%C5%9F%C4%B1kl%C4%B1%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200532-800%20I%C5%9F%C4%B1kl%C4%B1%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200532-800%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="0444-50-k banner tükenmez kalem 0444-50">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%200444-50-K%20Banner%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200444-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/0444-50.jpg" alt="0444-50-K Banner Tükenmez Kalem" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="0444-50-K Banner Tükenmez Kalem">0444-50-K Banner Tükenmez Kalem</div><div class="pc-code">0444-50</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=0444-50&ad=0444-50-K%20Banner%20T%C3%BCkenmez%20Kalem&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%200444-50-K%20Banner%20T%C3%BCkenmez%20Kalem%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%200444-50%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="mk-120-b zincirli masa kalemi mk-120">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%20MK-120-B%20Zincirli%20Masa%20Kalemi%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20MK-120%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/MK-120.jpg" alt="MK-120-B Zincirli Masa Kalemi" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="MK-120-B Zincirli Masa Kalemi">MK-120-B Zincirli Masa Kalemi</div><div class="pc-code">MK-120</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=MK-120&ad=MK-120-B%20Zincirli%20Masa%20Kalemi&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%20MK-120-B%20Zincirli%20Masa%20Kalemi%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20MK-120%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+  <div class="pc" data-s="mk-130-l zincirli masa kalemi mk-130">
+    <a class="pc-img" href="https://wa.me/905308995995?text=Merhaba%2C%20MK-130-L%20Zincirli%20Masa%20Kalemi%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20MK-130%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener"><img src="images/kalemler/MK-130.jpg" alt="MK-130-L Zincirli Masa Kalemi" loading="lazy"></a>
+    <div class="pc-body"><div class="pc-name" data-en="MK-130-L Zincirli Masa Kalemi">MK-130-L Zincirli Masa Kalemi</div><div class="pc-code">MK-130</div>
+      <div class="pc-actions"><a class="pc-quote" href="iletisim.html?urun=MK-130&ad=MK-130-L%20Zincirli%20Masa%20Kalemi&kategori=Kalemler" data-en="Get a Quote">Teklif Al</a>
+      <a class="pc-wa" href="https://wa.me/905308995995?text=Merhaba%2C%20MK-130-L%20Zincirli%20Masa%20Kalemi%20%C3%BCr%C3%BCn%C3%BC%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.%20%28Kod%3A%20MK-130%20%C2%B7%20Kategori%3A%20Kalemler%29" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a></div>
+    </div></div>
+<!-- GEN:PRODUCTS:END -->
+</main>
+<script>function filterProd(q){q=(q||'').toLowerCase().trim();document.querySelectorAll('#pcGrid .pc').forEach(function(c){c.style.display=(!q||c.dataset.s.indexOf(q)>-1)?'':'none';});}</script>
+<a class="wa-float" href="https://wa.me/905308995995" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.157 5.335 5.494 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg></a>
+<section class="custom-cta">
+  <div>
+    <div class="cc-tag" data-en="Custom Project">Özel Proje</div>
+    <h2 data-en="Can't find what you're looking for?">Aradığınız ürünü bulamadınız mı?</h2>
+    <p data-en="We also produce any custom form, material or concept that isn't on the list. Share your idea and let's design it together.">Listede olmayan her türlü özel form, malzeme veya konsept için de üretim yapıyoruz. Fikrinizi paylaşın, birlikte tasarlayalım.</p>
+    <div class="cc-cta-row">
+      <button class="btn-mg" data-en="Message on WhatsApp ↗">WhatsApp'tan Yaz ↗</button>
+      <button class="btn-out-w" data-en="Quote Form">Teklif Formu</button>
+    </div>
+  </div>
+  <div class="cc-steps">
+    <div class="cc-step">
+      <div class="cc-step-num">01</div>
+      <div class="cc-step-title" data-en="Needs &amp; Product Selection">İhtiyaç &amp; Ürün Seçimi</div>
+      <div class="cc-step-desc" data-en="Product type, quantity, intended use and delivery expectations are defined.">Ürün tipi, adet, kullanım amacı ve teslimat beklentileri belirlenir.</div>
+    </div>
+    <div class="cc-step">
+      <div class="cc-step-num">02</div>
+      <div class="cc-step-title" data-en="Design &amp; Mockup">Tasarım &amp; Mockup</div>
+      <div class="cc-step-desc" data-en="Visuals and a mockup are prepared based on logo, color and product details.">Logo, renk ve ürün detaylarına göre görsel ve mockup hazırlanır.</div>
+    </div>
+    <div class="cc-step">
+      <div class="cc-step-num">03</div>
+      <div class="cc-step-title" data-en="Production &amp; Control">Üretim &amp; Kontrol</div>
+      <div class="cc-step-desc" data-en="Approved products enter the production plan and undergo quality control.">Onaylanan ürünler üretim planına alınır ve kalite kontrolden geçirilir.</div>
+    </div>
+    <div class="cc-step">
+      <div class="cc-step-num">04</div>
+      <div class="cc-step-title" data-en="Packaging &amp; Delivery">Paketleme &amp; Teslimat</div>
+      <div class="cc-step-desc" data-en="Packaging fits the project specs and shipping is done on time.">Proje detaylarına uygun paketleme ve zamanında sevkiyat yapılır.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <img src="data:image/png;base64,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" alt="Promoking" class="f-logo">
+      <p data-en="We design and manufacture custom promotional products in plastic, rubber and textile. Based in Silivri, İstanbul, we serve all of Türkiye.">Plastik, kauçuk ve tekstil bazlı özel promosyon ürünleri tasarlıyor ve üretiyoruz. Silivri, İstanbul merkezli tesisimizle Türkiye geneline hizmet veriyoruz.</p>
+      <div class="f-con">
+        &#128205; Alipaşa Mah. Keşan Cad. No: 8/33<br>
+        Silivri / İstanbul<br>
+        &#9993; bilgi@promokingtr.com<br>
+        &#128222; +90 530 899 59 95
+      </div>
+    </div>
+    <div class="f-col">
+      <h5 data-en="Products">Ürünler</h5>
+      <ul>
+        <li data-en="PVC &amp; Rubber">PVC &amp; Kauçuk</li>
+        <li data-en="Plastic Products">Plastik Ürünler</li>
+        <li data-en="Office &amp; Textile">Ofis &amp; Tekstil</li>
+        <li data-en="Corporate Gift Sets">Kurumsal Hediye Setleri</li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5 data-en="Corporate">Kurumsal</h5>
+      <ul>
+        <li><a href="hakkimizda.html" style="color:inherit;text-decoration:none" data-en="About">Hakkımızda</a></li>
+        <li><a href="uretim.html" style="color:inherit;text-decoration:none" data-en="Production Process">Üretim Sürecimiz</a></li>
+        <li data-en="Industries">Sektörler</li>
+        <li><a href="referanslar.html" style="color:inherit;text-decoration:none" data-en="References">Referanslar</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5 data-en="Contact">İletişim</h5>
+      <ul>
+        <li><a href="iletisim.html" style="color:inherit;text-decoration:none" data-en="Get a Quote">Teklif Al</a></li>
+        <li>WhatsApp: +90 530 899 59 95</li>
+        <li>@promokingturkiye</li>
+        <li>bilgi@promokingtr.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span data-en="&amp;copy; 2025 Promoking. All rights reserved.">&copy; 2025 Promoking. Tüm hakları saklıdır.</span>
+    <div class="f-soc">
+      <a href="https://instagram.com/promokingturkiye" aria-label="Instagram">&#9824;</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="WhatsApp">W</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const filterBtns = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.prod-card');
+const countEl = document.getElementById('visible-count');
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const filter = btn.dataset.filter;
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    let visible = 0;
+    cards.forEach(card => {
+      const show = filter === 'all' || card.dataset.cat === filter;
+      card.style.display = show ? 'flex' : 'none';
+      if (show) visible++;
+    });
+    countEl.textContent = visible;
+  });
+});
+
+// "Teklif Al" buton click
+document.querySelectorAll('.prod-cta').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const prodName = btn.closest('.prod-card').querySelector('.prod-name').textContent;
+    window.open('https://wa.me/905308995995?text=' + encodeURIComponent('Merhaba, ' + prodName + ' için teklif almak istiyorum.'), '_blank');
+  });
+});
+</script>
+
+<script>
+window.PK_TITLE={tr:"Ürünler — Promoking",en:"Products — Promoking"};
+(function(){
+  function nodes(){return document.querySelectorAll('[data-en]');}
+  nodes().forEach(function(el){el.setAttribute('data-tr',el.innerHTML);});
+  document.querySelectorAll('[data-en-ph]').forEach(function(el){el.setAttribute('data-tr-ph',el.getAttribute('placeholder')||'');});
+  window.setLang=function(lang){
+    nodes().forEach(function(el){el.innerHTML = lang==='en'?el.getAttribute('data-en'):el.getAttribute('data-tr');});
+    document.querySelectorAll('[data-en-ph]').forEach(function(el){el.setAttribute('placeholder', lang==='en'?el.getAttribute('data-en-ph'):el.getAttribute('data-tr-ph'));});
+    document.documentElement.lang=lang;
+    try{localStorage.setItem('pk_lang',lang);}catch(e){}
+    var t=document.getElementById('langTr'),en=document.getElementById('langEn');
+    if(t&&en){if(lang==='en'){en.classList.add('on');t.classList.remove('on');}else{t.classList.add('on');en.classList.remove('on');}}
+    if(window.PK_TITLE&&window.PK_TITLE[lang])document.title=window.PK_TITLE[lang];
+  };
+  var saved='tr';try{saved=localStorage.getItem('pk_lang')||'tr';}catch(e){}
+  setLang(saved);
+})();
+</script>
+
+<script>
+/* Mobile hamburger menu */
+(function(){
+  var b=document.getElementById('navBurger'),m=document.getElementById('mobileMenu');
+  if(!b||!m)return;
+  function close(){m.classList.remove('open');b.classList.remove('open');document.body.classList.remove('menu-open');}
+  b.addEventListener('click',function(){var o=m.classList.toggle('open');b.classList.toggle('open',o);document.body.classList.toggle('menu-open',o);});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+  window.addEventListener('resize',function(){if(window.innerWidth>600)close();});
+})();
+</script>
+</body>
+</html>

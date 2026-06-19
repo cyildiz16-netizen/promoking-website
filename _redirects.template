@@ -1,0 +1,43 @@
+# ============================================================================
+# PROMOKING — Netlify _redirects  (HAZIR ŞABLON — HENÜZ AKTİF DEĞİL)
+# ----------------------------------------------------------------------------
+# AKTİFLEŞTİRME:
+#   1) Bu dosyayı uzantısız "_redirects" olarak yeniden adlandırın.
+#   2) Site kökünde (index.html ile aynı dizinde) bulunsun.
+#   3) Domain Netlify'a yönlendiği AN canlı olmalı (eski Wix linkleri kopmasın).
+#
+# NEDEN ŞABLON: Şu an dosya adı "_redirects.template" olduğu için Netlify onu
+# yok sayar; deploy etseniz bile hiçbir yönlendirme devreye girmez. Geçiş anına
+# kadar güvenle sitede durabilir.
+# ============================================================================
+
+# --- 1) HOST BİRLEŞTİRME --------------------------------------------------
+# Yeni sitenin canonical'ı ÇIPLAK alan adı (https://promoking.com.tr).
+# Wix bugün www. ile yayında; tüm www trafiğini çıplak alana 301'le taşır.
+# (Netlify'da "primary domain" ayarı da bunu yapar; bu satır pekiştirmedir.)
+https://www.promoking.com.tr/*   https://promoking.com.tr/:splat   301!
+
+# --- 2) ESKİ WIX SAYFALARI → YENİ SAYFALAR --------------------------------
+# Kaynak slug'lar canlı Wix sitesinden doğrulanmıştır (18.06.2026).
+/services               /urunler.html        301
+/projects               /uretim.html         301
+/about-us               /hakkimizda.html     301
+/studio                 /hakkimizda.html     301
+/contact                /iletisim.html       301
+/terms-and-conditions   /                    301
+
+# --- 3) UZANTISIZ KISA YOLLAR (opsiyonel, ileride paylaşım kolaylığı) ------
+# Birinin /urunler yazması durumunda .html'e taşır. Zararsız, isteğe bağlı.
+/urunler        /urunler.html        301
+/uretim         /uretim.html         301
+/hakkimizda     /hakkimizda.html     301
+/iletisim       /iletisim.html       301
+/referanslar    /referanslar.html    301
+
+# --- NOTLAR ---------------------------------------------------------------
+# • /terms-and-conditions şu an çıplak ana sayfaya gidiyor. Eğer Şartlar/Gizlilik
+#   sayfası yeni sitede yeniden oluşturulursa, hedefi o sayfaya çevirin.
+# • /projects'i Üretim sayfasına bağladık (Wix nav etiketi "Üretim" idi).
+#   Referanslar yeni bir sayfa; Wix'te doğrudan karşılığı yoktu.
+# • Yeni eklenen kategori sayfaları (kalemler, otel-bar vb.) Wix'te YOKTU;
+#   bunlar yalnızca sitemap üzerinden indekslenecek, redirect gerekmez.

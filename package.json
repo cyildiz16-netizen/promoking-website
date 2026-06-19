@@ -1,0 +1,9 @@
+{
+  "name": "promoking-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Promoking static site — build-time generation from /data JSON via generate.js",
+  "scripts": {
+    "build": "node generate.js"
+  }
+}
